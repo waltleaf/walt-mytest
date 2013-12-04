@@ -1,0 +1,69 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SinaStockInfo
+{
+    /// <summary>
+    /// 股票信息
+    /// </summary>
+    public class StockInfo
+    {
+        /// <summary>
+        /// 股票名称
+        /// </summary>
+        public string Name { get; set; }
+
+        /// <summary>
+        /// 当日开盘价
+        /// </summary>
+        public float TodayPrice { get; set; }
+
+        /// <summary>
+        /// 昨日收盘价
+        /// </summary>
+        public float YesterdayPrice { get; set; }
+
+        /// <summary>
+        /// 当前价
+        /// </summary>
+        public float NowPrice { get; set; }
+
+        /// <summary>
+        /// 今日最高价
+        /// </summary>
+        public float HighestPrice { get; set; }
+
+        /// <summary>
+        /// 今日最低价
+        /// </summary>
+        public float LowestPrice { get; set; }
+
+        /// <summary>
+        /// 买一价
+        /// </summary>
+        public float BuyOnePrice { get; set; }
+
+        /// <summary>
+        /// 卖一价
+        /// </summary>
+        public float SellOnePrice { get; set; }
+
+        /// <summary>
+        /// 成交量，单位为“股”
+        /// </summary>
+        public long TradeCount { get; set; }
+
+        /// <summary>
+        /// 成交额
+        /// </summary>
+        public long TradeMoney { get; set; }
+
+        /// <summary>
+        /// 日期时间
+        /// </summary>
+        public DateTime DateTime { get; set; }
+    }
+}
